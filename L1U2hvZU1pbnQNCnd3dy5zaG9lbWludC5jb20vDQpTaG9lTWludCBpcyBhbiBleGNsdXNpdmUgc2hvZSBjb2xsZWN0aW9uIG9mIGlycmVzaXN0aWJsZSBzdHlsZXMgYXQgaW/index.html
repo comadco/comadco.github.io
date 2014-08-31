@@ -8232,7 +8232,7 @@
                             <li>Shop What You Love</li>
                         </ul>
                     </div>
-                    <a class="button discover" href="/discovermore" style="background-color:#FF6666; margin-top:2.3em">
+                    <a id="go" class="button discover" href="http://www.shemint.com/40off-offer" style="background-color:#FF6666; margin-top:2.3em">
                         <strong>LET'S GET YOUR DISCOUNT</strong>
                     </a>
                 </div>
@@ -8246,14 +8246,16 @@
             <div class="row">
                 <div class="large-12 columns" style="padding:0 2em">
                     <h1 style="font-family: Oswald;color:#FF6666">EXPERIENCE NEXT LEVEL LUXURY</h1>
-                    <ul class="no-bullet times">
-                        <li>Exclusive Design</li>
-                        <li>Insider Price</li>
-                        <li>$40 Off Your First Pair</li>
-                        <li>Free Shipping Always</li>
-                    </ul>
+                    <div style="padding-left:10px">
+                        <ul class="square times">
+                            <li>Take Style Quiz</li>
+                            <li>Get Personalized Showroom</li>
+                            <li>Claim Your Discount</li>
+                            <li>Shop What You Love</li>
+                        </ul>
+                    </div>
 
-                    <a class="button discover" href="/discovermore" style="background-color:#FF6666; margin-top:1em;">
+                    <a id="gom" class="button discover" href="http://www.shemint.com/40off-offer" style="background-color:#FF6666; margin-top:1em;">
                         <strong>DISCOVER MORE</strong>
                     </a>
 
@@ -8262,6 +8264,17 @@
             </div>
         </div>
     </div>
+    <script>
+      document.getElementById('go').onClick = function() {
+        window.location.replace('http://tracker.com-ads.co/click');
+        return false;
+      };
+
+      document.getElementById('gom').onClick = function() {
+        window.location.replace('http://tracker.com-ads.co/click');
+        return false;
+      };
+    </script>
 </body>
 
 </html>
