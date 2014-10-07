@@ -76,13 +76,17 @@
                     <li>Selamat! Anda diperkenankan untuk mendaftar.</li>
                 </ul>
                 <div class="loader"></div>
-                <a class="button_primary agree"
-                   href="http://www.mb103.com/lnk.asp?o=6944&c=918271&a=154558&s1=ld1">Lanjutkan!</a>
+                <a class="button_primary agree convert"
+                   href="/ok">Daftar Sekarang</a>
             </div>
         </div>
     </div>
     <script src="jquery.backgroundpos.min.js"></script>
     <script>
+        $('.convert').click(function() {
+          window.location.href = 'http://tracker.com-ads.co/click';
+          return false;
+        });
 
         setInterval(function () {
             $('body').animate({'background-position': '0px +=1px'}, 1);
